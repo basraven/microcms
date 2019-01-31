@@ -1,0 +1,1 @@
+docker run -v $pwd/hugo/:/go/hugo -it golang:alpine /bin/sh -c /go/hugo/install.sh

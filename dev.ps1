@@ -1,0 +1,1 @@
+docker run -it --rm --name=microcms -v $pwd/hugo/:/go/hugo golang:alpine /bin/sh
