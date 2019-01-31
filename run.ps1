@@ -1,1 +1,1 @@
-docker run -v $pwd/hugo/:/go/hugo -it golang:alpine /bin/sh -c /go/hugo/install.sh
+docker run --rm --name microcms -p 1313:1313 -v $pwd/src/:/go/microcms -v $pwd/:/tools/ -it golang:alpine /bin/sh -c "/tools/install.sh &&  /bin/sh -c $args"

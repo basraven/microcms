@@ -1,0 +1,4 @@
+baseURL = "http://microcms.basraven.nl/"
+languageCode = "en-us"
+title = "MicroCMS"
+theme = "ananke"
